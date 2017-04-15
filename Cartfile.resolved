@@ -1,2 +1,5 @@
 github "AFNetworking/AFNetworking" "3.1.0"
+github "Roobiq/RBQFetchedResultsController" "v5.0.2"
+github "Roobiq/RBQSafeRealmObject" "v1.1.2"
+github "Roobiq/RealmUtilities" "v0.4.2"
 github "realm/realm-cocoa" "v2.5.1"

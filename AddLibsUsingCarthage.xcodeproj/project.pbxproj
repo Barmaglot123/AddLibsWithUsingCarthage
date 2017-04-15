@@ -7,11 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		100372D01E9FF55400A8E964 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 100372CF1E9FF55400A8E964 /* Reachability.m */; };
+		100DEA281E9D251000CDE884 /* SongsCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 100DEA271E9D251000CDE884 /* SongsCollectionViewController.m */; };
+		100DEA2B1E9D253500CDE884 /* OneSongCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 100DEA2A1E9D253500CDE884 /* OneSongCollectionViewCell.m */; };
+		10322E431E9E79040083E3CA /* SongsRealmEntity.m in Sources */ = {isa = PBXBuildFile; fileRef = 10322E421E9E79040083E3CA /* SongsRealmEntity.m */; };
 		10F726331E9C05FA00A6A708 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 10F726321E9C05FA00A6A708 /* main.m */; };
 		10F726361E9C05FA00A6A708 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 10F726351E9C05FA00A6A708 /* AppDelegate.m */; };
-		10F726391E9C05FA00A6A708 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 10F726381E9C05FA00A6A708 /* ViewController.m */; };
 		10F7263C1E9C05FA00A6A708 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 10F7263A1E9C05FA00A6A708 /* Main.storyboard */; };
-		10F7263F1E9C05FA00A6A708 /* AddLibsUsingCarthage.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 10F7263D1E9C05FA00A6A708 /* AddLibsUsingCarthage.xcdatamodeld */; };
 		10F726411E9C05FA00A6A708 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 10F726401E9C05FA00A6A708 /* Assets.xcassets */; };
 		10F726441E9C05FA00A6A708 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 10F726421E9C05FA00A6A708 /* LaunchScreen.storyboard */; };
 		10F7264E1E9C129700A6A708 /* AFNetworking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 10F7264C1E9C129700A6A708 /* AFNetworking.framework */; };
@@ -19,14 +21,19 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		100372CE1E9FF55400A8E964 /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		100372CF1E9FF55400A8E964 /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
+		100DEA261E9D251000CDE884 /* SongsCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SongsCollectionViewController.h; sourceTree = "<group>"; };
+		100DEA271E9D251000CDE884 /* SongsCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SongsCollectionViewController.m; sourceTree = "<group>"; };
+		100DEA291E9D253500CDE884 /* OneSongCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OneSongCollectionViewCell.h; sourceTree = "<group>"; };
+		100DEA2A1E9D253500CDE884 /* OneSongCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OneSongCollectionViewCell.m; sourceTree = "<group>"; };
+		10322E411E9E79040083E3CA /* SongsRealmEntity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SongsRealmEntity.h; sourceTree = "<group>"; };
+		10322E421E9E79040083E3CA /* SongsRealmEntity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SongsRealmEntity.m; sourceTree = "<group>"; };
 		10F7262E1E9C05FA00A6A708 /* AddLibsUsingCarthage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AddLibsUsingCarthage.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		10F726321E9C05FA00A6A708 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		10F726341E9C05FA00A6A708 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		10F726351E9C05FA00A6A708 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		10F726371E9C05FA00A6A708 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		10F726381E9C05FA00A6A708 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		10F7263B1E9C05FA00A6A708 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		10F7263E1E9C05FA00A6A708 /* AddLibsUsingCarthage.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = AddLibsUsingCarthage.xcdatamodel; sourceTree = "<group>"; };
 		10F726401E9C05FA00A6A708 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		10F726431E9C05FA00A6A708 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		10F726451E9C05FA00A6A708 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -50,6 +57,8 @@
 		10F726251E9C05FA00A6A708 = {
 			isa = PBXGroup;
 			children = (
+				100372CE1E9FF55400A8E964 /* Reachability.h */,
+				100372CF1E9FF55400A8E964 /* Reachability.m */,
 				10F726301E9C05FA00A6A708 /* AddLibsUsingCarthage */,
 				10F7262F1E9C05FA00A6A708 /* Products */,
 				10F7264B1E9C129700A6A708 /* Frameworks */,
@@ -69,13 +78,16 @@
 			children = (
 				10F726341E9C05FA00A6A708 /* AppDelegate.h */,
 				10F726351E9C05FA00A6A708 /* AppDelegate.m */,
-				10F726371E9C05FA00A6A708 /* ViewController.h */,
-				10F726381E9C05FA00A6A708 /* ViewController.m */,
+				100DEA261E9D251000CDE884 /* SongsCollectionViewController.h */,
+				100DEA271E9D251000CDE884 /* SongsCollectionViewController.m */,
+				10322E411E9E79040083E3CA /* SongsRealmEntity.h */,
+				10322E421E9E79040083E3CA /* SongsRealmEntity.m */,
+				100DEA291E9D253500CDE884 /* OneSongCollectionViewCell.h */,
+				100DEA2A1E9D253500CDE884 /* OneSongCollectionViewCell.m */,
 				10F7263A1E9C05FA00A6A708 /* Main.storyboard */,
 				10F726401E9C05FA00A6A708 /* Assets.xcassets */,
 				10F726421E9C05FA00A6A708 /* LaunchScreen.storyboard */,
 				10F726451E9C05FA00A6A708 /* Info.plist */,
-				10F7263D1E9C05FA00A6A708 /* AddLibsUsingCarthage.xcdatamodeld */,
 				10F726311E9C05FA00A6A708 /* Supporting Files */,
 			);
 			path = AddLibsUsingCarthage;
@@ -188,10 +200,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				10F726391E9C05FA00A6A708 /* ViewController.m in Sources */,
+				10322E431E9E79040083E3CA /* SongsRealmEntity.m in Sources */,
+				100DEA281E9D251000CDE884 /* SongsCollectionViewController.m in Sources */,
 				10F726361E9C05FA00A6A708 /* AppDelegate.m in Sources */,
 				10F726331E9C05FA00A6A708 /* main.m in Sources */,
-				10F7263F1E9C05FA00A6A708 /* AddLibsUsingCarthage.xcdatamodeld in Sources */,
+				100372D01E9FF55400A8E964 /* Reachability.m in Sources */,
+				100DEA2B1E9D253500CDE884 /* OneSongCollectionViewCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -354,21 +368,9 @@
 				10F7264A1E9C05FA00A6A708 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCVersionGroup section */
-		10F7263D1E9C05FA00A6A708 /* AddLibsUsingCarthage.xcdatamodeld */ = {
-			isa = XCVersionGroup;
-			children = (
-				10F7263E1E9C05FA00A6A708 /* AddLibsUsingCarthage.xcdatamodel */,
-			);
-			currentVersion = 10F7263E1E9C05FA00A6A708 /* AddLibsUsingCarthage.xcdatamodel */;
-			path = AddLibsUsingCarthage.xcdatamodeld;
-			sourceTree = "<group>";
-			versionGroupType = wrapper.xcdatamodel;
-		};
-/* End XCVersionGroup section */
 	};
 	rootObject = 10F726261E9C05FA00A6A708 /* Project object */;
 }
